@@ -1,0 +1,56 @@
+plugins {
+    id 'java'
+}
+
+group 'cucumber'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '2.41.0'
+// https://mvnrepository.com/artifact/org.testng/testng
+    testCompile group: 'org.testng', name: 'testng', version: '5.14.7'
+// https://mvnrepository.com/artifact/info.cukes/cucumber-core
+    compile group: 'info.cukes', name: 'cucumber-core', version: '1.2.5'
+
+    // https://mvnrepository.com/artifact/info.cukes/cucumber-java
+    compile group: 'info.cukes', name: 'cucumber-java', version: '1.1.8'
+
+//// https://mvnrepository.com/artifact/gradle.plugin.com.github.spacialcircumstances/gradle-cucumber-reporting
+//    compile group: 'gradle.plugin.com.github.spacialcircumstances', name: 'gradle-cucumber-reporting', version: '0.0.11'
+
+    // https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting
+    compile group: 'net.masterthought', name: 'cucumber-reporting', version: '3.10.0'
+
+    // https://mvnrepository.com/artifact/info.cukes/gherkin
+//    providedCompile group: 'info.cukes', name: 'gherkin', version: '2.7.4'
+
+
+
+// https://mvnrepository.com/artifact/info.cukes/cucumber-junit
+    testCompile group: 'info.cukes', name: 'cucumber-junit', version: '1.2.3'
+
+    // https://mvnrepository.com/artifact/io.cucumber/cucumber-junit
+    testCompile group: 'io.cucumber', name: 'cucumber-junit', version: '4.8.0'
+// https://mvnrepository.com/artifact/info.cukes/cucumber-testng
+    compile group: 'info.cukes', name: 'cucumber-testng', version: '1.2.5'
+// https://mvnrepository.com/artifact/javax.mail/javax.mail-api
+//    compile group: 'javax.mail', name: 'javax.mail-api', version: '1.5.5'
+
+// https://mvnrepository.com/artifact/javax.mail/mail
+    compile group: 'javax.mail', name: 'mail', version: '1.5.0-b01'
+// https://mvnrepository.com/artifact/com.google.guava/guava
+    compile group: 'com.google.guava', name: 'guava', version: '20.0'
+
+
+
+
+
+}

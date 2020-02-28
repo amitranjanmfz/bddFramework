@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.633911">
+<testcase classname="As a Amazon user I should be able to search product" name="Searching different products after login" time="14.633911">
+<system-out><![CDATA[Given I am on the Login page URL "https://www.amazon.in/"...................passed
+Then I click on sign in button and wait for sign in page....................passed
+Then I should see Sign In Page..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
